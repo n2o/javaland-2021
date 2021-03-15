@@ -1,59 +1,47 @@
 (ns repl)
 
-(do
-;; REPL-Koch Session stammt von der Clojure UG Bonn 👋
-  (def 🐔 '🐔)
-  (def 🐷 '🐷)
-  (def 🐟 '🐟)
-  (def 🐮 '🐮)
-  (def 🦄 '🦄)
-  (def 🌈 '🌈)
-  (def 🥩 '🥩)
-  (def 🥚 '🥚)
-  (def 🌽 '🌽)
-  (def 🍈 '🍈)
-  (def 🍉 '🍉)
-  (def 🥔 '🥔)
-  (def 🎂 '🎂)
-  (def 🍰 '🍰)
+;; "Diese REPL-Kochsession stammt von der Clojure UG Bonn 👋"
+(def 🐔 '🐔)
+(def 🐷 '🐷)
+(def 🐟 '🐟)
+(def 🐮 '🐮)
+(def 🦄 '🦄)
+(def 🌈 '🌈)
+(def 🥩 '🥩)
+(def 🥚 '🥚)
+(def 🌽 '🌽)
+(def 🍈 '🍈)
+(def 🍉 '🍉)
+(def 🥔 '🥔)
+(def 🎂 '🎂)
+(def 🍰 '🍰)
 
-  (def 🏔 '🏔)
-  (def 🐉 '🐉)
+(def 🏔 '🏔)
+(def 🐉 '🐉)
 
-  (defn 🔪
-    [x]
-    (case x
-      🐟 '🍣
-      🍈 '🍉
-      🎂 '🍰
-      🐮 '🥩
-      🐉 '🏔
-      🦄 '🌈
-      x))
+(defn 🔪
+  "Use sharp knife."
+  [x]
+  (case x
+    🐟 '🍣
+    🍈 '🍉
+    🎂 '🍰
+    🐮 '🥩
+    🐉 '🏔
+    🦄 '🌈
+    x))
 
-  (defn 🔥
-    [x]
-    (case x
-      🥚 '🍳
-      🌽 '🍿
-      🥔 '🍟
-      🐔 '🍗
-      🐷 '🥓
-      🥩 '🍔
-      x)))
-
-
-
-
-
-
-
-
-
-
-
-
-
+(defn 🔥
+  "Burn things."
+  [x]
+  (case x
+    🥚 '🍳
+    🌽 '🍿
+    🥔 '🍟
+    🐔 '🍗
+    🐷 '🥓
+    🥩 '🍔
+    x))
 
 
 (comment
@@ -67,8 +55,8 @@
   4/3
 
   ;; Strings
-  "foo"
-  (type "foo")
+  "schnaqqi"
+  (type "schnaqqi")
 
   ;; Characters
   \f
@@ -106,9 +94,6 @@
     [n]
     (* n n))
   (square2 4)
-
-  (def square3 #(* % %))
-  (square3 4)
 
 
 
