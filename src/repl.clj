@@ -110,7 +110,7 @@
 
 
   ;; Lazy Sequences
-  (set! *print-length* 20)
+  (set! *print-length* 50)
 
   (range)
 
@@ -154,9 +154,7 @@
 
   ;; There is a function for it...
 
-  (filter
-   (fn [n] (= 0 (mod n 2)))
-   (range 1 20))
+  (filter even? (range 1 20))
 
 
   ;; Java Interop
